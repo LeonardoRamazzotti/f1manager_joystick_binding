@@ -1,23 +1,23 @@
-import mouse_custom as mouse
+import mouse_custom as m
 
 def key_1():
-	mouse.overtake_1()
-	mouse.high_fuel_1()
-	mouse.attack_1()
+	m.overtake_1()
+	m.high_fuel_1()
+	m.attack_1()
 def key_2():
 	pass
 def key_3():
-    mouse.overtake_1()
-    mouse.high_fuel_1()
-    mouse.attack_1()
+    m.overtake_1()
+    m.high_fuel_1()
+    m.attack_1()
 	
 def key_4():
 	pass
 
 def key_5():
-	mouse.overtake_2()
-	mouse.high_fuel_2()
-	mouse.attack_2()
+	m.overtake_2()
+	m.high_fuel_2()
+	m.attack_2()
 def key_6():
 	pass
 def key_7():
