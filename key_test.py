@@ -3,18 +3,13 @@ import keyboard
 import time
 
 def test():
-    mouse.move(261,677)
+    mouse.move(41,691)
     time.sleep(0.2)
     mouse.click('left')
     time.sleep(0.2)
-    mouse.move(58,565)
+    mouse.move(145,680)
     time.sleep(0.2)
     mouse.click('left')
-    time.sleep(0.2)
-    mouse.move(261,677)
-    time.sleep(0.2)
-    mouse.click('left')
-
 
 
 while True:

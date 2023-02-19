@@ -288,7 +288,7 @@ def conversative_2():
 
 #DRIVER MANAGE
 def box_1():
-    mouse.move()
+    mouse.move(41,691)
     time.sleep(0.2)
     mouse.click('left')
     time.sleep(0.2)
@@ -296,7 +296,7 @@ def box_1():
     time.sleep(0.2)
     mouse.click('left')
 def box_2():
-    mouse.move()
+    mouse.move(932,691)
     time.sleep(0.2)
     mouse.click('left')
     time.sleep(0.2)
