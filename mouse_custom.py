@@ -162,6 +162,31 @@ def race_fuel_2():
     mouse.move(1138,677)
     time.sleep(0.2)
     mouse.click('left')
+def low_fuel_1():
+    mouse.move(1138,677)
+    time.sleep(0.2)
+    mouse.click('left')
+    time.sleep(0.2)
+    mouse.move(940,565)
+    time.sleep(0.2)
+    mouse.click('left')
+    time.sleep(0.2)
+    mouse.move(1138,677)
+    time.sleep(0.2)
+    mouse.click('left')
+def low_fuel_2():
+    mouse.move(261,677)
+    time.sleep(0.2)
+    mouse.click('left')
+    time.sleep(0.2)
+    mouse.move(58,565)
+    time.sleep(0.2)
+    mouse.click('left')
+    time.sleep(0.2)
+    mouse.move(261,677)
+    time.sleep(0.2)
+    mouse.click('left')
+
 
 #TYRE OPTIONS
 def attack_1():
@@ -188,33 +213,103 @@ def attack_2():
     mouse.move(1017,677)
     time.sleep(0.2)
     mouse.click('left')
-
 def aggressive_1():
-    pass
+    mouse.move(124,677)
+    time.sleep(0.2)
+    mouse.click('left')
+    time.sleep(0.2)
+    mouse.move(96,478)
+    time.sleep(0.2)
+    mouse.click('left')
+    time.sleep(0.2)
+    mouse.move(124,677)
+    time.sleep(0.2)
+    mouse.click('left')
 def aggressive_2():
-    pass
+    mouse.move(1017,677)
+    time.sleep(0.2)
+    mouse.click('left')
+    time.sleep(0.2)
+    mouse.move(979,482)
+    time.sleep(0.2)
+    mouse.click('left')
+    time.sleep(0.2)
+    mouse.move(1017,677)
+    time.sleep(0.2)
+    mouse.click('left')
 def race_tyre_1():
-    pass
+    mouse.move(124,677)
+    time.sleep(0.2)
+    mouse.click('left')
+    time.sleep(0.2)
+    mouse.move(96,515)
+    time.sleep(0.2)
+    mouse.click('left')
+    time.sleep(0.2)
+    mouse.move(124,677)
+    time.sleep(0.2)
+    mouse.click('left')
 def race_tyre_2():
-    pass
+    mouse.move(1017,677)
+    time.sleep(0.2)
+    mouse.click('left')
+    time.sleep(0.2)
+    mouse.move(979,517)
+    time.sleep(0.2)
+    mouse.click('left')
+    time.sleep(0.2)
+    mouse.move(1017,677)
+    time.sleep(0.2)
+    mouse.click('left')
 def conservative_1():
-    pass
+    mouse.move(124,677)
+    time.sleep(0.2)
+    mouse.click('left')
+    time.sleep(0.2)
+    mouse.move(96,550)
+    time.sleep(0.2)
+    mouse.click('left')
+    time.sleep(0.2)
+    mouse.move(124,677)
+    time.sleep(0.2)
+    mouse.click('left')
 def conversative_2():
-    pass
-def push_1():
-    pass
-def push_2():
-    pass
-def ers_charge_1():
-    mouse.move(367,677)
+    mouse.move(1017,677)
     time.sleep(0.2)
     mouse.click('left')
     time.sleep(0.2)
-
-
-def ers_charge_2():
-    mouse.move(1259,677)
+    mouse.move(979,552)
     time.sleep(0.2)
     mouse.click('left')
     time.sleep(0.2)
-    
+    mouse.move(1017,677)
+    time.sleep(0.2)
+    mouse.click('left')
+
+#DRIVER MANAGE
+def box_1():
+    mouse.move()
+    time.sleep(0.2)
+    mouse.click('left')
+    time.sleep(0.2)
+    mouse.move(145,680)
+    time.sleep(0.2)
+    mouse.click('left')
+def box_2():
+    mouse.move()
+    time.sleep(0.2)
+    mouse.click('left')
+    time.sleep(0.2)
+    mouse.move(1011,680)
+    time.sleep(0.2)
+    mouse.click('left')
+
+#MANAGE FUNCTIONS
+def time_speed():
+    mouse.move(662,730)
+    time.sleep(0.2)
+    mouse.click('left')
+def camera():
+    mouse.move(805,725)
+    time.sleep(0.2)
+    mouse.click('left')
